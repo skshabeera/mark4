@@ -14,10 +14,6 @@ body {
 }
 
 
-/* .margin-md {
-    margin: 1rem;
-} */
-
 .container {
     padding: 0rem 1rem;
 }
@@ -86,6 +82,11 @@ body {
 .navigation .link-active {
     font-weight: bold;
 }
+.navigation .link:hover{
+    background-color: darkmagenta;
+}
+
+
 
 
 .hero {
