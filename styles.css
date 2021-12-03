@@ -33,19 +33,26 @@ body {
 .link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
-    color: white;
+     color: white; 
     display: block;
     max-width: 140px;
     margin: 1rem 1rem 1rem 0rem;
 }
 
 .link-secondary {
-    color: var(--primary-color);
+    background-color: var(--primary-color);
+    color: white;
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
     display: block;
     max-width: 140px;
     margin: 1rem 1rem 1rem 0rem;
+}
+.link-secondary:hover{
+    background-color: crimson;
+}
+.link-primary:hover{
+    background-color:green;
 }
 
 
@@ -119,14 +126,15 @@ body {
     padding: 2rem;
 }
 
+
 .section h1 {
     text-align: center;
 
 }
 
 .ow {
-    background-color: var(--off-white);
-}
+    background-color:var(--off-white);
+} 
 
 
 .footer {
@@ -152,6 +160,7 @@ body {
 
 .showcase-list {
     padding: 2rem;
+
 }
 
 .showcase-blog {
